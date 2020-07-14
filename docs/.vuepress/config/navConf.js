@@ -1,4 +1,4 @@
-module.export = 
+module.exports = 
 [
     { text: 'Home', link: '/' },
     { text: 'Guide', link: '/about/' },
@@ -16,5 +16,5 @@ module.export =
     
         ]
     },
-    { text: 'External', link: 'https://google.com' },
-    ]
+    { text: 'External', link: 'https://google.com' }
+]
