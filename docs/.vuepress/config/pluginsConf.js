@@ -1,4 +1,5 @@
 const moment = require('moment');
+const secret = require('./secret');
 moment.locale("zh-cn");
 
 module.exports =
@@ -10,8 +11,8 @@ module.exports =
         // 其他的 Vssue 配置
         owner: 'TTTurbo',
         repo: 'docs',
-        clientId: '4f6a58ff26549ae48c53',
-        clientSecret: 'e4bc1e1bbc54ff087adce5bc0186572680a1fa5f',
+        clientId: secret.clientId,
+        clientSecret: secret.clientSecret,
         autoCreateIssue: true
       },
       '@vuepress/last-updated':
