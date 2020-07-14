@@ -12,43 +12,43 @@
     export default {
         name: "CountUp",
         props: {
-            startVal:{
+            startVal: {
                 type: Number,
                 default: 0
             },
-            endVal:{
+            endVal: {
                 type: Number,
                 required: true
             },
-            decimalPlaces:{
+            decimalPlaces: {
                 type: Number,
                 default: 0
             },
-            duration:{
-                type:Number,
-                default:2
+            duration: {
+                type: Number,
+                default: 2
             },
-            delay:{
-                type:Number,
-                default:0
+            delay: {
+                type: Number,
+                default: 0
             }
         },
         mounted() {
             this.init()
         },
-        deta(){
-            return{
-                counter:null
+        deta() {
+            return {
+                counter: null
             }
         },
         methods: {
             init() {
                 import('countup.js').then(module => {
                     this.$nextTick(() => {
-                        this.counter = new module.CountUp(this.$refs.countUp,this.endVal,{
-                            startVal:this.startVal,
-                            decimalPlaces:this.decimalPlaces,
-                            duration:this.duration
+                        this.counter = new module.CountUp(this.$refs.countUp, this.endVal, {
+                            startVal: this.startVal,
+                            decimalPlaces: this.decimalPlaces,
+                            duration: this.duration
                         });
                         setTimeout(() => {
                             this.counter.start();
@@ -56,14 +56,14 @@
                     })
                 });
             }
-        
-        
+
+
         },
-        beforeDestroy(){
+        beforeDestroy() {
             this.counter.reset();
             this.counter = null;
         }
-    }
+    };
 
 
 
