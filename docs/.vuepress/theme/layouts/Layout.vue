@@ -24,7 +24,6 @@
       </template>
       <template #bottom>
         <slot name="sidebar-bottom" />
-        <Vssue  class="theme-default-content content__default" :options="{ locale: 'zh' }" />
       </template>
     </Sidebar>
 
@@ -39,6 +38,7 @@
       </template>
       <template #bottom>
         <slot name="page-bottom" />
+        <Vssue  class="theme-default-content content__default" :options="{ locale: 'zh' }" />
       </template>
     </Page>
   </div>
