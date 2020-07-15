@@ -33,6 +33,15 @@ module.exports =
         {
           'ga': '' // UA-00000000-0
         }
+    },
+    '@vuepress/medium-zoom': {
+      selector: 'img.custom',
+      // medium-zoom options here
+      // See: https://github.com/francoischalifour/medium-zoom#options
+      
+    },
+    "vuepress-plugin-auto-sidebar": {
+      nav: true
     }
 
 }
