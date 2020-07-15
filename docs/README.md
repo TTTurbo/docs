@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: '/vuepress/topic.png'
+heroImage: '/vuepress/topic.gif'
 faceImage: '/vuepress/head.png'
 heroImageStyle: {
   maxWidth: '800px',
