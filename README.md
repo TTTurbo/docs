@@ -15,6 +15,7 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-
-
+[![Build Status](https://travis-ci.com/TTTurbo/docs.svg?branch=master)](https://travis-ci.com/TTTurbo/docs)
+[![GitHub issues](https://img.shields.io/github/issues/TTTurbo/docs)](https://github.com/TTTurbo/docs/issues)
+[![GitHub stars](https://img.shields.io/github/stars/TTTurbo/docs)](https://github.com/TTTurbo/docs/stargazers)
 # Hello VuePress!
