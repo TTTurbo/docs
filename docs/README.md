@@ -1,21 +1,27 @@
 ---
-# home: true
-# heroImage: /hero.png
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
-actionLink: /zh/guide/
+home: true
+heroImage: '/vuepress/topic.png'
+faceImage: '/vuepress/head.png'
+heroImageStyle: {
+  maxWidth: '800px',
+  width: '100%',
+  height: '15%',,
+  display: block,
+  margin: '16% auto -18% auto',
+  //border: '1px dashed #000',
+  box-shadow: '8px 8px 20px #022',
+  borderRadius: '1rem',
+  background: 'rgba(0, 0, 0, 0.8) none repeat scroll !important',
+}
+isShowTitleInHome: true
+actionText: '开启进阶之路'
+actionLink: /views/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+- title: 
+  details: 把所有的不快给昨天
+- title: 
+  details: 把所有的努力给今天
+- title: 
+  details: 把所有的希望给明天
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
-# Hello VuePress!
-
-# PWA
-为了演示 PWA 弹窗效果的内容。
-需要在本地安装 vuepress yarn add -D vuepress
