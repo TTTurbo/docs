@@ -14,3 +14,5 @@ sidebar: auto
 ## 一级标题
 ## 一级标题
 ## 一级标题
+
+追加 Travis CI 自动化部署
