@@ -40,7 +40,35 @@ module.exports = {
                 'front-end/TCP&UDP'
             ]
         },
-        
+        {
+            title: '后端 Back-end',
+            collapsable: true,
+            children: [
+                'java/ArrayList',
+                'java/HashMap',
+                'java/docker',
+                'java/itext',
+                'java/poi',
+                'java/quartz',
+                'java/rabbitmq001',
+                'java/rabbitmq002',
+                'java/redis01',
+                'java/redis02',
+                'java/SSH',
+                'java/jwt',
+                'java/swagger2',
+                'java/thread',
+                'java/ThreadPool',
+                'java/ThreadLocal',
+                'java/annotationLog',
+                'java/jvm',
+                'java/JUC',
+                'java/javaLock',
+                'java/mysql_explain',
+                'java/ReentrantLock',
+                'java/CountDownLatch'
+            ]
+        },
         {
             title: '随笔 Essay',
             collapsable: true,

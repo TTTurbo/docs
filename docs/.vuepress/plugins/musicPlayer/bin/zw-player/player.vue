@@ -112,6 +112,7 @@
 //     global[property] = document.defaultView[property];
 //   }
 // });
+
 import { getWords,getMusicInfo,getMusicUrl,getHotMusic,getMyMusic,getSearchSuggest,getHotTalk } from './api/music'
 import pan from './img/pan.png'
 import play from './img/play.png'
@@ -341,6 +342,7 @@ export default {
             getMusicUrl(this.musicList[this.thisMusicIndex].id).then((res)=>{
                 if(res.data.data[0].url==null || res.data.data[0].url=='' || res.data.data[0].url==undefined){
                     if(this.notPlay.length!=this.musicList.length){
+
                         let nextIndex=this.thisMusicIndex+1;
                         if(this.notPlay.indexOf(this.thisMusicIndex)==-1){
                             this.notPlay.push(this.thisMusicIndex);

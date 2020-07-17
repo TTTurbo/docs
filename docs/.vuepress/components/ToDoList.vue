@@ -57,6 +57,7 @@
 				item.checked = !item.checked;
 				this.saveLocalStorage("todolist",this.list);
 			},
+
 			// localStorage 方法
 			getLocalStorage(key) {
 				var todolist = JSON.parse(localStorage.getItem(key));
