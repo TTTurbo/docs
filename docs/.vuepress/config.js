@@ -5,17 +5,22 @@ const plugins = require('./config/plugins/')
 
 module.exports = {
   // dest: 'gb-pages',//打包目录
-  base: '/znote/',
-  title: "znote",
-  description: '荷尽已无擎雨盖，菊残犹有傲霜枝。',
+  base: '/docs/',
+  title: "并肩于雪山之巅",
+  description: '百香果的前端进阶',
   head: [
-    ['link', {
-      rel: 'icon',
-      href: 'https://infinitypro-img.infinitynewtab.com/custom-icon/8001de1jd3n68lbfnxxt564xvb0vl5.png?imageMogr2/thumbnail/240x/format/webp/blur/1x0/quality/100|imageslim'
-    }],
+    ['link', { rel: 'icon', href: '/vuepress/favicon.ico' }],
     ['meta', {
       name: 'viewport',
       content: 'width=device-width,initial-scale=1,user-scalable=no'
+    }],
+    ['meta', {
+      name: 'author',
+      content: '百香果'
+    }],
+    ['meta', {
+      name: 'keywords',
+      content: '并肩于雪山之巅'
     }],
     ["script", {
       "language": "javascript",
@@ -54,14 +59,13 @@ module.exports = {
     // 最后更新时间
     lastUpdated: true,
     lastUpdated: '上次更新', // string | boolean
-    // 作者
-    author: 'zhāngpéngjūn',
+  
     // 备案号
-    record: '京ICP备17067634号-1',
+    record: '冀ICP备20016335号',
     // 项目开始时间
-    startYear: '2019',
+    startYear: '2020',
     //git地址
-    repo: 'zpj80231/znote',
+    repo: 'TTTurbo/docs',
     // 如果你的文档不在仓库的根部
     docsDir: 'docs',
     // 可选，默认为 master

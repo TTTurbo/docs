@@ -49,7 +49,7 @@ footer: MIT Licensed | Copyright © 2018-present Evan You | 冀ICP备20016335号
 乡愁是一湾浅浅的海峡，<br/>
 我在这头，<br/>
 大陆在那头。<br/>
-大陆在那头。<br/><br/
+大陆在那头。<br/>
 
 
 :::
