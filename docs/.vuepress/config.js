@@ -5,7 +5,7 @@ const plugins = require('./config/plugins/')
 
 module.exports = {
   // dest: 'gb-pages',//打包目录
- // base: '/docs/',
+  base: '/docs/',
   title: "并肩于雪山之巅",
   description: '百香果的前端进阶',
   head: [
