@@ -1,5 +1,7 @@
 const path = require('path')
-
+module.exports = {
+  extend: '@vuepress/theme-default'
+}
 // Theme API.
 module.exports = (options, ctx) => ({
   alias () {
@@ -16,6 +18,7 @@ module.exports = (options, ctx) => ({
         : path.resolve(__dirname, 'noopModule.js'),
       '@SearchBox': path.resolve(__dirname, 'components/SearchBox.vue')
     }
+    
   },
 
   plugins: [

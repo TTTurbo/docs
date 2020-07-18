@@ -11,6 +11,7 @@
         <slot
           name="page-bottom"
           slot="bottom"/>
+          <Vssue class="theme-default-content content_default" :options="{ locale: 'zh' }" />
       </Page>
       <Footer v-if="$frontmatter.home" class="footer" />
     </Common>

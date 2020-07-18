@@ -892,7 +892,7 @@
     "@vssue/utils" "^1.4.0"
     axios "^0.18.1"
 
-"@vssue/api-github-v4@^1.2.0":
+"@vssue/api-github-v4@^1.2.0", "@vssue/api-github-v4@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@vssue/api-github-v4/-/api-github-v4-1.4.0.tgz#30defd2220ff50e5ed4c50159e42eba52b004748"
   integrity sha512-AdMYX62zXolvbJl0YoLjMQfoyIaK+pso2TVb34L+tjqfxgfubRm6mE/pWU7cKLiWMn6IaiS0LotC2O4y/omqDQ==
@@ -915,6 +915,13 @@
   dependencies:
     date-fns "^1.29.0"
     qs "^6.6.0"
+
+"@vssue/vuepress-plugin-vssue@^1.4.6":
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/@vssue/vuepress-plugin-vssue/-/vuepress-plugin-vssue-1.4.6.tgz#0a231095f58b29bbd64c9ea964fa73add909ccfd"
+  integrity sha512-oP63mMvue54ASrfMJVTpmT74is4eU2OeAqDqSOLYUytpqgba2AKPXnq6xhY8fua/+hxpttq0pOVajF6GL4WTgg==
+  dependencies:
+    vssue "^1.4.6"
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
   version "1.0.0"
@@ -8023,6 +8030,17 @@ vssue@^1.2.2:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/vssue/-/vssue-1.4.2.tgz#5968275c79a02f031a629548479edcdcc6232d84"
   integrity sha512-DiuKrUQVKbxylLkMsFPsFpGn5GRtl6+kQTJLDEahDlj+p9Wqoea3klMGHaXyMdHR84riyLQ/gcMfcyOO2DUAGA==
+  dependencies:
+    "@vssue/utils" "^1.4.0"
+    github-markdown-css "^3.0.1"
+    vue "^2.6.10"
+    vue-i18n "^8.11.2"
+    vue-property-decorator "^8.1.1"
+
+vssue@^1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/vssue/-/vssue-1.4.6.tgz#2ce16373907dc04bb92d6908224f0dd7239454f6"
+  integrity sha512-s92qMIaI/9LzBQCUUaX0fpNlA3kRRGtm0hQxDN/YBziOB4NXTWgPvoimLreyjP75hRItHvVhKzkXiZ8bIMjy7A==
   dependencies:
     "@vssue/utils" "^1.4.0"
     github-markdown-css "^3.0.1"

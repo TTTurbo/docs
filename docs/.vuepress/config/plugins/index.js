@@ -45,12 +45,23 @@ module.exports = [
             buttonText: "刷新"
         }
     }],
+    ['@vssue/vuepress-plugin-vssue', {
+        // 设置 `platform` 而不是 `api`
+        platform: 'github-v4',
+  
+        // 其他的 Vssue 配置
+        owner: 'TTTurbo',
+        repo: 'docs',
+        clientId: '4f6a58ff26549ae48c53',
+        clientSecret: 'e4bc1e1bbc54ff087adce5bc0186572680a1fa5f',
+        autoCreateIssue: true
+      }],
 
-    ['@vuepress/google-analytics',
-        {
-            ga: 'UA-149716079-1'
-        }
-    ],
+    //['@vuepress/google-analytics',
+    //    {
+    //        ga: 'UA-149716079-1'
+    //    }
+    //],
 
     // [
     //   '@vuepress/plugin-register-components',

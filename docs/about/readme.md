@@ -81,6 +81,6 @@ isShowComments: true
   textColor: '#ecf0f1'
 ```
 :::
-
+<Vssue class="theme-default-content content_default" :options="{ locale: 'zh' }" />
 
 <link rel="stylesheet" href="https://ico.z01.com/zico.min.css">
