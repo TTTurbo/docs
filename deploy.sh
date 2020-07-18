@@ -11,7 +11,7 @@ npm run docs:build
 cd docs/.vuepress/dist/
 
 # 如果是发布到自定义域名
-echo 'temp2.bxgszd.top' > CNAME
+echo 'www.bxgszd.top' > CNAME
 
 git init
 git add -A
