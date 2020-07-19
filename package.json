@@ -13,7 +13,7 @@
     "@vuepress/plugin-pwa": "^1.5.2",
     "@vuepress/plugin-register-components": "1.2.0",
     "axios": "^0.19.0",
-    "jquery": "^3.5.1",
+    "jquery": "^3.5.0",
     "js-yaml": "^3.14.0",
     "lodash": "^4.17.19",
     "minimist": "^1.2.5",
