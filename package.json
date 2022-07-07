@@ -17,7 +17,7 @@
     "js-yaml": "^3.14.0",
     "lodash": "^4.17.19",
     "minimist": "^1.2.5",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "vuepress": "^1.5.2",
     "vuepress-plugin-boxx": "0.0.7",
     "vuepress-plugin-container": "^2.1.3",
